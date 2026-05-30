@@ -1,0 +1,52 @@
+/* Full page styling */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Testimonial card */
+.testimonial-card {
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+/* Hover effect */
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+/* User image */
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* User name */
+.user-name {
+    margin-top: 15px;
+    color: #333;
+}
+
+/* User role */
+.user-role {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Testimonial text */
+.testimonial {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+}
